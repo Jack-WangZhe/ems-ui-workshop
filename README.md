@@ -1,5 +1,15 @@
 # EMS UI WorkShop
 The EMS UI WorkShop Records
 
-# View directly
-You can entry https://htmlpreview.github.io/ and type in the html link you want to view.
+# Catalog Structure
+```
+ems ui workshop
+|
+|-template
+    |
+    |-index.html
+    |-style.css
+```
+
+# Quick View
+* [Template](https://htmlpreview.github.io/?https://github.com/Jack-WangZhe/ems-ui-workshop/blob/main/template/index.html)
