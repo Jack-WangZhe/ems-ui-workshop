@@ -5,7 +5,7 @@ body {
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 /*----------------- Workflow Content --------------*/
@@ -13,21 +13,35 @@ div.wf-content {
     display: flex;
     flex: 1 0 80%;
     overflow: auto;
+    flex-direction: row;
 }
 
 div.wf-content__editor {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1 0 50%;
+    flex-direction: column;
+    flex-basis: 50%;
     overflow: auto;
     background-color: cadetblue;
 }
 
 div.wf-content__editor__control {
     margin: 10px;
-    height: 100px;
-    width: 150px;
+    height: 120px;
+    flex-shrink: 0;
     background-color: indianred;
+}
+
+div.wf-content__editor__association-control {
+    margin: 10px;
+    height: 120px;
+    overflow-y: auto;
+    flex-shrink: 0;
+    background-color: indianred;
+}
+
+div.wf-content__association-row {
+    flex: 1;
+    font-size: 1rem;
 }
 
 div.wf-content__tree {
@@ -35,6 +49,7 @@ div.wf-content__tree {
     flex: 1 0 50%;
     background-color: skyblue;
 }
+
 /*-------------------------------------------------*/
 
 /*------------------ Workflow Drawer --------------*/
