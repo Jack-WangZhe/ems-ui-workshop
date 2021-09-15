@@ -1,10 +1,8 @@
 /*---------------  Clean Up  ---------------*/
 body {
-    height: 100vh;
+    /* TODO: full height of page and no scrollbar */
     margin: 0;
     background-color: yellow;
-    display: flex;
-    flex-direction: column;
     font-size: 1rem;
 }
 
@@ -12,44 +10,38 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 /*----------------- Workflow Content --------------*/
 div.wf-content {
-    display: flex;
-    flex: 1 0 80%;
+    /* TODO: full height of page and no scrollbar */
     overflow: auto;
-    flex-direction: row;
 }
 
 div.wf-content__editor {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
-    overflow-y: auto;
+    /* TODO: full height of page and no scrollbar */
     background-color: cadetblue;
 }
 
 div.wf-content__editor__control {
+    /* TODO: full height of page and no scrollbar */
     margin: 10px;
     height: 120px;
-    flex-shrink: 0;
     background-color: indianred;
 }
 
 div.wf-content__editor__association-control {
+    /* TODO: full height of page and no scrollbar */
     margin: 10px;
     height: 120px;
-    overflow-y: auto;
-    flex-shrink: 0;
     background-color: indianred;
 }
 
 div.wf-content__association-row {
-    flex: 1;
+    /* TODO: full height of page and no scrollbar */
 }
 
 div.wf-content__tree {
-    display: flex;
-    flex: 1 0 50%;
+    /* TODO: full height of page and no scrollbar */
     background-color: skyblue;
 }
 
@@ -57,16 +49,15 @@ div.wf-content__tree {
 
 /*------------------ Workflow Drawer --------------*/
 div.wf-drawer {
-    display: flex;
-    flex: 1 0 20%;
+    /* TODO: full height of page and no scrollbar */
     background-color: gold;
 }
+
 /*-------------------------------------------------*/
 
 /*------------------- Common Class ----------------*/
 .container-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* TODO: full height of page and no scrollbar */
 }
+
 /*-------------------------------------------------*/
